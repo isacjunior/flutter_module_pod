@@ -7,5 +7,4 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Example flutter module'
   spec.source       = { :path => 'git@github.com:isacjunior/flutter_module_pod.git' }
   spec.vendored_frameworks    = 'App.framework'
-  spec.dependency 'Flutter'
 end
