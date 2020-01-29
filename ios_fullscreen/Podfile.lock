@@ -1,29 +1,23 @@
 PODS:
-  - Flutter (1.0.0)
-  - flutter_module (1.0.0)
+  - Flutter (1.9.102)
+  - flutter_module (1.0.0):
+    - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `https://github.com/isacjunior/flutter_module_pod.git`)
-  - flutter_module (from `https://github.com/isacjunior/flutter_module_pod.git`)
+  - flutter_module (from `../flutter_module.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Flutter
 
 EXTERNAL SOURCES:
-  Flutter:
-    :git: https://github.com/isacjunior/flutter_module_pod.git
   flutter_module:
-    :git: https://github.com/isacjunior/flutter_module_pod.git
-
-CHECKOUT OPTIONS:
-  Flutter:
-    :commit: 6eda5309c60d2dd0e17df7b019ae993081b56e52
-    :git: https://github.com/isacjunior/flutter_module_pod.git
-  flutter_module:
-    :commit: 20350e5f5d44e4e1e1baa78920bc357e5273254f
-    :git: https://github.com/isacjunior/flutter_module_pod.git
+    :path: "../flutter_module.podspec"
 
 SPEC CHECKSUMS:
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_module: d7b836134cc299ea44f50a06bcbb159a4c2cbad5
+  Flutter: 9670f1db061e296954013c1ea79f7da889b0a88e
+  flutter_module: a31a9eb8b361cc48c2f8f40ff5b7c357c517d7ca
 
-PODFILE CHECKSUM: 93f98d5e6926f1d668932e6c07300b670d486229
+PODFILE CHECKSUM: c1cd5194cc613ad9253725e62949e04808f5cbe3
 
 COCOAPODS: 1.7.5
