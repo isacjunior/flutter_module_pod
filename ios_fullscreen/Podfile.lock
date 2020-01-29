@@ -1,5 +1,5 @@
 PODS:
-  - Flutter (1.0.0)
+  - Flutter (1.13.600)
   - flutter_module (1.0.0)
 
 DEPENDENCIES:
@@ -8,14 +8,14 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "../Flutter.podspec"
+    :podspec: "../Flutter.podspec"
   flutter_module:
     :path: "../flutter_module.podspec"
 
 SPEC CHECKSUMS:
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Flutter: 91f8b19f9dea2947534bddbbc799c87b26205b14
   flutter_module: d7b836134cc299ea44f50a06bcbb159a4c2cbad5
 
-PODFILE CHECKSUM: 309c643b53cd57272d011f94ebe134ba97c96d9f
+PODFILE CHECKSUM: e1788c1f5769976d7d931a72ff03021b73c212ce
 
 COCOAPODS: 1.7.5

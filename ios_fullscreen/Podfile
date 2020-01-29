@@ -8,7 +8,7 @@ target 'IOSFullScreen' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'Flutter', :path => '../Flutter.podspec'
+  pod 'Flutter', :podspec => '../Flutter.podspec'
   pod 'flutter_module', :path => '../flutter_module.podspec'
 
   # pod 'Flutter', :git => 'https://github.com/isacjunior/flutter_module_pod.git'
